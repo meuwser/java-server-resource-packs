@@ -34,10 +34,11 @@ jobs:
             cp -r "$d"* ../output/merged/
           done
 
-      - name: Create final zip
+      - name: Create final zip with root contents
         run: |
-          cd output
-          zip -r resourcepack.zip merged
+          cd output/merged
+          zip -r ../resourcepack.zip ./*
+          cd ..
           rm -r merged
 
       - name: Deploy to GitHub Pages
