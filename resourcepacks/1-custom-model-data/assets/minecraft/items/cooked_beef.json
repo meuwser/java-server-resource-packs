@@ -1,0 +1,68 @@
+{
+    "model": {
+        "type": "select",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/cooked_beef"
+        },
+        "cases": [
+            {
+                "when": "scar_cookies",
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/scarcookies2"
+                }
+            },
+            {
+                "when": "jellie_pop",
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/jellie_pop"
+                }
+            },
+            {
+                "when": "jellie_icecream_sandwich",
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/jellie_icecream_sandwich"
+                }
+            },
+            {
+                "when": "scarland_popcorn",
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/scarland_popcorn"
+                }
+            },
+            {
+                "when": "scarland_churro",
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/scarland_churro"
+                }
+            },
+            {
+                "when": "scarland_slushie",
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/scarland_slushie"
+                }
+            },
+            {
+                "when": "scar_pancakes",
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/scarpancakes"
+                }
+            },
+            {
+                "when": "scar_pancakes_with_syrup",
+                "model": {
+                    "type": "model",
+                    "model": "custom:item/scarpancakeswsyrup"
+                }
+            }
+        ]
+    }
+}

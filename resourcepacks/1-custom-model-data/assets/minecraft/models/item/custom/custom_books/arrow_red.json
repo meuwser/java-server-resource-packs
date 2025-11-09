@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "item/custom/custom_books/arrow_red"
+    }
+}

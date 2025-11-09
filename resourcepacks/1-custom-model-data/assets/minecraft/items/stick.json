@@ -1,0 +1,68 @@
+{
+    "model": {
+        "type": "select",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/stick"
+        },
+        "cases": [
+            {
+                "when": "mcc_coin",
+                "model": {
+                    "type": "model",
+                    "model": "mcc:island_items/currency/non_premium"
+                }
+            },
+            {
+                "when": "mcc_gem",
+                "model": {
+                    "type": "model",
+                    "model": "mcc:island_items/currency/premium"
+                }
+            },
+            {
+                "when": "mcc_royal_rep",
+                "model": {
+                    "type": "model",
+                    "model": "mcc:island_items/currency/royal_reputation"
+                }
+            },
+            {
+                "when": "mcc_silver",
+                "model": {
+                    "type": "model",
+                    "model": "mcc:island_items/currency/silver"
+                }
+            },
+            {
+                "when": "mcc_material_dust",
+                "model": {
+                    "type": "model",
+                    "model": "mcc:island_items/currency/material_dust"
+                }
+            },
+            {
+                "when": "mcc_emoji_purple",
+                "model": {
+                    "type": "model",
+                    "model": "mcc:island_items/emoji/purple"
+                }
+            },
+            {
+                "when": "mcc_emoji_red",
+                "model": {
+                    "type": "model",
+                    "model": "mcc:island_items/emoji/red"
+                }
+            },
+            {
+                "when": "mcc_emoji_aqua",
+                "model": {
+                    "type": "model",
+                    "model": "mcc:island_items/emoji/aqua"
+                }
+            }
+        ]
+    }
+}

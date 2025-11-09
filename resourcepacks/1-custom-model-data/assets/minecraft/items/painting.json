@@ -1,0 +1,48 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "component",
+    "cases": [
+      {
+        "model": {
+          "type": "model",
+          "model": "tooltrims:item/display_toolsmithing_table"
+        },
+        "when": "tooltrims:a_toolsmithing_table"
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "tooltrims:item/linear_tool_trim_smithing_template"
+        },
+        "when": "tooltrims:b_linear_tool_trim_smithing_template"
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "tooltrims:item/tracks_tool_trim_smithing_template"
+        },
+        "when": "tooltrims:c_tracks_tool_trim_smithing_template"
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "tooltrims:item/frost_tool_trim_smithing_template"
+        },
+        "when": "tooltrims:d_frost_tool_trim_smithing_template"
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "tooltrims:item/charge_tool_trim_smithing_template"
+        },
+        "when": "tooltrims:e_charge_tool_trim_smithing_template"
+      }
+    ],
+    "component": "painting/variant",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/painting"
+    }
+  }
+}

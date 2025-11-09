@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "item/custom/tool_trims/netherite_shovel_frost_resin"
+  }
+}

@@ -1,0 +1,40 @@
+{
+    "model": {
+        "type": "select",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "block/carved_pumpkin"
+        },
+        "cases": [
+            {
+                "when": "tnt",
+                "model": {
+                    "type": "model",
+                    "model": "block/tnt"
+                }
+            },
+            {
+                "when": "mcc_master_frog_golden",
+                "model": {
+                    "type": "model",
+                    "model": "mcc:island_cosmetics/general/hat/master_frog/golden"
+                }
+            },
+            {
+                "when": "mcc_master_frog_statue",
+                "model": {
+                    "type": "model",
+                    "model": "mcc:island_cosmetics/general/hat/master_frog/statue"
+                }
+            },
+            {
+                "when": "mcc_master_frog",
+                "model": {
+                    "type": "model",
+                    "model": "mcc:island_cosmetics/general/hat/master_frog/default"
+                }
+            }
+        ]
+    }
+}
