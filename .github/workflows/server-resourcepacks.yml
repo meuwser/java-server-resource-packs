@@ -1,4 +1,4 @@
-name: Merge Resourcepacks and Publish
+name: Merge Server Resource Packs and Publish
 
 on:
   push:
@@ -22,7 +22,7 @@ jobs:
 
       - name: Merge contents in reverse-alphabetical order
         run: |
-          cd resourcepacks
+          cd server
 
           # Extract zip files in reverse-alphabetical order
           for f in $(ls -r *.zip 2>/dev/null); do
@@ -37,7 +37,7 @@ jobs:
       - name: Create final zip with root contents
         run: |
           cd output/merged
-          zip -r ../resourcepack.zip ./*
+          zip -r ../server-resourcepack.zip ./*
           cd ..
           rm -r merged
 
