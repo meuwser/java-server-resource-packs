@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "model",
-    "model": "custom:do_amulet"
+    "model": "custom:item/do_amulet"
   }
 }

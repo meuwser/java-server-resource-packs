@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="resourcepacks">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/resourcepacks/6-visual_armor_trims_4.0_1.21.5+.zip!/" />
+      <root url="jar://$PROJECT_DIR$/resourcepacks/4-VanillaTweaks-Variation-mc1.21.10.zip!/" />
+      <root url="jar://$PROJECT_DIR$/resourcepacks/3-VanillaTweaks-3D-Doors-mc1.21.10.zip!/" />
+      <root url="jar://$PROJECT_DIR$/resourcepacks/5-hoffens_minimal_armor_1.21.9-11.zip!/" />
+      <root url="jar://$PROJECT_DIR$/resourcepacks/2-VanillaTweaks-Main-Pack-mc1.21.10.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

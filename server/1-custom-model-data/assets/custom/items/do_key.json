@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "model",
-    "model": "custom:do_key"
+    "model": "custom:item/do_key"
   }
 }

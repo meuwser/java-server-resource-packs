@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "model",
-    "model": "custom:jellie_balloon"
+    "model": "custom:item/jellie_balloon"
   }
 }

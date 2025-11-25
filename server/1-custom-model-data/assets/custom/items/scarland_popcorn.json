@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "model",
-    "model": "custom:scarland_popcorn"
+    "model": "custom:item/scarland_popcorn"
   }
 }

@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "model",
-    "model": "custom:do_crown"
+    "model": "custom:item/do_crown"
   }
 }

@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "model",
-    "model": "custom:scarland_churro"
+    "model": "custom:item/scarland_churro"
   }
 }

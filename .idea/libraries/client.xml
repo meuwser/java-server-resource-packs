@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="client">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/client/5-hoffens_minimal_armor_1.21.6.zip!/" />
+      <root url="jar://$PROJECT_DIR$/client/2-VanillaTweaks-Main-Pack-mc1.21.10.zip!/" />
+      <root url="jar://$PROJECT_DIR$/client/6-visual_armor_trims_4.0_1.21.5+.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

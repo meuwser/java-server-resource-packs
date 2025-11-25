@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "model",
-    "model": "custom:do_ember"
+    "model": "custom:item/do_ember"
   }
 }
