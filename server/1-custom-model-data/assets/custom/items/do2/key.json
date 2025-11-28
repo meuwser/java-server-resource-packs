@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "custom:item/do_key"
+    "model": "custom:item/do2/do_key"
   }
 }
