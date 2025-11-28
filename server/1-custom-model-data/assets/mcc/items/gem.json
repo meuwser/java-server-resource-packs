@@ -1,6 +1,6 @@
 {
   "model": {
-    "type": "model",
+    "type": "minecraft:model",
     "model": "mcc:island_items/currency/premium"
   }
 }

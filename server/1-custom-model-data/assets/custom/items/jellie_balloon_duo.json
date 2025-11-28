@@ -1,6 +1,6 @@
 {
   "model": {
-    "type": "model",
+    "type": "minecraft:model",
     "model": "custom:item/jellie_balloon_duo"
   }
 }
