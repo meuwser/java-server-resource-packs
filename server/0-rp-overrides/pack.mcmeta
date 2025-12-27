@@ -2,17 +2,29 @@
   "pack": {
     "pack_format": 34,
     "min_format": 34,
-    "max_format": 69,
-    "supported_formats": { "min_inclusive": 34, "max_inclusive": 69 },
-    "description": "Meuwser's Server Resource Pack for mc1.21.10+"
+    "max_format": 75,
+    "supported_formats": { "min_inclusive": 34, "max_inclusive": 75 },
+    "description": "Meuwser's Server Resource Pack for mc1.21.11"
   },
   "overlays": {
     "entries": [
+      {
+        "formats": { "min_inclusive": 34, "max_inclusive": 34 },
+        "min_format": 34,
+        "max_format": 34,
+        "directory": "overlay_34_34"
+      },
       {
         "formats": { "min_inclusive": 34, "max_inclusive": 66 },
         "min_format": 34,
         "max_format": 66,
         "directory": "overlay_34_66"
+      },
+      {
+        "formats": { "min_inclusive": 34, "max_inclusive": 69 },
+        "min_format": 34,
+        "max_format": 69,
+        "directory": "overlay_34_69"
       },
       {
         "formats": { "min_inclusive": 34, "max_inclusive": 41 },
@@ -33,9 +45,15 @@
         "directory": "overlay_34_51"
       },
       {
-        "formats": { "min_inclusive": 42, "max_inclusive": 69 },
+        "formats": { "min_inclusive": 34, "max_inclusive": 55 },
+        "min_format": 34,
+        "max_format": 55,
+        "directory": "overlay_34_55"
+      },
+      {
+        "formats": { "min_inclusive": 42, "max_inclusive": 75 },
         "min_format": 42,
-        "max_format": 69,
+        "max_format": 75,
         "directory": "overlay_42"
       },
       {
@@ -69,15 +87,15 @@
         "directory": "overlay_42_57"
       },
       {
-        "formats": { "min_inclusive": 46, "max_inclusive": 69 },
+        "formats": { "min_inclusive": 46, "max_inclusive": 75 },
         "min_format": 46,
-        "max_format": 69,
+        "max_format": 75,
         "directory": "overlay_46"
       },
       {
-        "formats": { "min_inclusive": 53, "max_inclusive": 69 },
+        "formats": { "min_inclusive": 53, "max_inclusive": 75 },
         "min_format": 53,
-        "max_format": 69,
+        "max_format": 75,
         "directory": "overlay_53"
       },
       {
@@ -93,22 +111,58 @@
         "directory": "overlay_55_56"
       },
       {
-        "formats": { "min_inclusive": 57, "max_inclusive": 69 },
+        "formats": { "min_inclusive": 57, "max_inclusive": 75 },
         "min_format": 57,
-        "max_format": 69,
+        "max_format": 75,
         "directory": "overlay_57"
+      },
+      {
+        "formats": { "min_inclusive": 58, "max_inclusive": 75 },
+        "min_format": 58,
+        "max_format": 75,
+        "directory": "overlay_58"
       },
       {
         "formats": { "min_inclusive": 58, "max_inclusive": 69 },
         "min_format": 58,
         "max_format": 69,
-        "directory": "overlay_58"
+        "directory": "overlay_58_69"
+      },
+      {
+        "formats": { "min_inclusive": 63, "max_inclusive": 75 },
+        "min_format": 63,
+        "max_format": 75,
+        "directory": "overlay_63"
+      },
+      {
+        "formats": { "min_inclusive": 63, "max_inclusive": 69 },
+        "min_format": 63,
+        "max_format": 69,
+        "directory": "overlay_63_69"
+      },
+      {
+        "formats": { "min_inclusive": 69, "max_inclusive": 75 },
+        "min_format": 69,
+        "max_format": 75,
+        "directory": "overlay_69"
       },
       {
         "formats": { "min_inclusive": 69, "max_inclusive": 69 },
         "min_format": 69,
         "max_format": 69,
-        "directory": "overlay_69"
+        "directory": "overlay_69_69"
+      },
+      {
+        "formats": { "min_inclusive": 34, "max_inclusive": 74 },
+        "min_format": 34,
+        "max_format": 74,
+        "directory": "overlay_34_74"
+      },
+      {
+        "formats": { "min_inclusive": 70, "max_inclusive": 75 },
+        "min_format": 70,
+        "max_format": 75,
+        "directory": "overlay_70"
       }
     ]
   }
