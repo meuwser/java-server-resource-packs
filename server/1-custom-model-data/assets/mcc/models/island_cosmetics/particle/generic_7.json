@@ -1,1 +1,0 @@
-{"textures":{"0":"particle/generic_7","particle":"particle/generic_7"},"elements":[{"from":[0.0,0.0,8.0],"to":[16.0,16.0,8.0],"faces":{"north":{"uv":[0.0,0.0,16.0,16.0],"texture":"#0","rotation":180},"south":{"uv":[0.0,16.0,16.0,0.0],"texture":"#0"}}}],"credit":"Made with Blockbench"}
